@@ -1,0 +1,51 @@
+#image {
+	background-color:#333232; 
+	width: 80%;
+	overflow: auto;
+	margin: auto;
+	padding: 50px;
+	
+}
+#info {
+	color: white;
+}
+.nav-link {
+	background-color:#f49620;
+	color: black;
+	margin-right: 20px;
+}
+.nav {
+	background-color: #191919;
+	padding-left: 10px;	
+	margin-top: 20px;
+}
+.jumbotron {
+	background-color: #191919;
+	color:#6fccdd;
+	margin-bottom: 0;
+}
+.active-blue{
+	background-color: #6fccdd;
+	margin-right: 20px;
+}
+body {
+	background-color:#191919;
+}
+#image img {
+	width: 40%;
+	object-fit: contain;
+	float:left;
+	margin-right: 90px;
+}
+label {
+	color: #6fccdd;
+}
+#image h1 {
+	color: #f49620;
+	margin-bottom: 20px;
+}
+.btn {
+	background-color: #6fccdd;
+	border-color: #6fccdd;
+	color: black;
+}
