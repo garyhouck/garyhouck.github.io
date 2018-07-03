@@ -1,10 +1,9 @@
 #image {
 	background-color:#333232; 
 	width: 80%;
-	overflow: auto;
 	margin: auto;
 	padding: 50px;
-	
+	margin-bottom: 60px;	
 }
 #info {
 	color: white;
@@ -18,11 +17,13 @@
 	background-color: #191919;
 	padding-left: 10px;	
 	margin-top: 20px;
+	float: right;
 }
 .jumbotron {
 	background-color: #191919;
 	color:#6fccdd;
 	margin-bottom: 0;
+	margin-top: 0;
 }
 .active-blue{
 	background-color: #6fccdd;
@@ -48,4 +49,7 @@ label {
 	background-color: #6fccdd;
 	border-color: #6fccdd;
 	color: black;
+}
+p {
+	line-height: 2;
 }
