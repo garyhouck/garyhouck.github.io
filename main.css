@@ -89,7 +89,8 @@ p {
 }
 .card {
 	background-color:#333232; 
-	color: white;	
+	color: white;
+	width: 100%;	
 }
 .col-md-3:hover {
 	box-shadow: 1px 1px 50px #f49620;
@@ -100,7 +101,10 @@ p {
 .projectHeading {
 	color: #f49620;
 	margin-bottom: 20px;
-	text-align: center;
+	/* text-align: center; */
+}
+hr {
+	background-color: #f49620;
 }
 .leftList {
 	float: left;
