@@ -1,6 +1,6 @@
 #image {
 	background-color:#333232; 
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	padding: 50px;
 	margin-bottom: 60px;	
@@ -45,7 +45,7 @@ body {
 label {
 	color: #6fccdd;
 }
-#image h1 {
+#image h2 {
 	color: #f49620;
 	margin-bottom: 20px;
 }
