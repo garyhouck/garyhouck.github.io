@@ -38,9 +38,9 @@ body {
 }
 #image img {
 	width: 40%;
-	object-fit: contain;
+	/* object-fit: contain; */
 	float:left;
-	margin-right: 90px;
+	margin-right: 5%;
 }
 label {
 	color: #6fccdd;
@@ -53,6 +53,21 @@ label {
 	background-color: #6fccdd;
 	border-color: #6fccdd;
 	color: black;
+	position: absolute;
+	bottom:0;
+	left:0;
+	width: 100%;
+	margin:0;	
+}
+.contactB {
+	background-color: #6fccdd;
+	border-color: #6fccdd;
+	color: black;
+	padding: 8px;
+}
+.contactB:hover {
+	background-color: #f49620;
+	border: 2px solid #f49620;
 }
 .btn:hover {
 	background-color: #f49620;
@@ -68,4 +83,44 @@ p {
 }
 .lead {
 	margin-left:10px;
+}
+.display-4 {
+	text-shadow: 1px 1px 50px white;
+}
+.card {
+	background-color:#333232; 
+	color: white;	
+}
+.col-md-3:hover {
+	box-shadow: 1px 1px 50px #f49620;
+}
+.col-md-4:hover {
+	box-shadow: 1px 1px 50px #f49620;
+}
+.projectHeading {
+	color: #f49620;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.leftList {
+	float: left;
+}
+.rightList {
+	float: right;
+	
+}
+.scare {
+	clear: both;
+	margin-top: 20px;
+	float: left;
+}
+.nutrition {
+	clear: both;
+	margin-top: 20px;
+}
+.card-title {
+	text-shadow: 1px 1px 30px #f49620 ;
+}
+h6 {
+	color: #f49620;
 }
