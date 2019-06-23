@@ -1,9 +1,14 @@
 #image {
 	background-color:#333232; 
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	padding: 50px;
-	margin-bottom: 60px;	
+	margin-bottom: 60px;
+	clear: both;	
+}
+
+p {
+	color: white;
 }
 #info {
 	color: white;
@@ -27,7 +32,12 @@
 	background-color: #191919;
 	color:#6fccdd;
 	margin-bottom: 0;
-	margin-top: 0;
+	margin-top: 10px;
+	float: left;	
+}
+
+.jumbotron-fluid {
+	padding: 0;
 }
 .active-blue{
 	background-color: #6fccdd;
@@ -82,10 +92,19 @@ p {
 	color:#f49620;
 }
 .lead {
-	margin-left:10px;
+	margin-left: 5px;
+	font-size: 1.2em;
+	padding-top: 0;
+	margin-top: 0;
+	position: relative;
+	bottom: 10px;
 }
 .display-4 {
 	text-shadow: 1px 1px 50px white;
+	font-size: 2.5em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: #f49620;	
 }
 .card {
 	background-color:#333232; 
@@ -123,8 +142,18 @@ hr {
 	margin-top: 20px;
 }
 .card-title {
-	text-shadow: 1px 1px 30px #f49620 ;
+	text-shadow: 1px 1px 30px #f49620;
+	color: white;
 }
 h6 {
 	color: #f49620;
+}
+
+#carouselExampleIndicators, #carouselExampleIndicators2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 1px 1px 10px #f49620;
 }
