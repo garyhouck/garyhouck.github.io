@@ -2,7 +2,7 @@
 	background-color:#333232; 
 	width: 100%;
 	margin: auto;
-	padding: 50px;
+	/* padding: 60px; */
 	margin-bottom: 60px;
 	clear: both;	
 }
@@ -12,6 +12,10 @@ p {
 }
 #info {
 	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .nav-link {
 	background-color:#f49620;
@@ -47,10 +51,11 @@ body {
 	background-color:#191919;
 }
 #image img {
-	width: 40%;
+	width: 50%;
 	/* object-fit: contain; */
 	float:left;
 	margin-right: 5%;
+	clip-path: polygon(16% 0, 100% 0%, 85% 100%, 0% 100%);
 }
 label {
 	color: #6fccdd;
@@ -61,11 +66,11 @@ label {
 }
 .btn {
 	background-color: #6fccdd;
-	border-color: #6fccdd;
+	border: none;
 	color: black;
-	position: absolute;
+	/* position: absolute;
 	bottom:0;
-	left:0;
+	left:0; */
 	width: 100%;
 	margin:0;	
 }
@@ -143,7 +148,7 @@ hr {
 }
 .card-title {
 	text-shadow: 1px 1px 30px #f49620;
-	color: white;
+	color: #6fccdd;
 }
 h6 {
 	color: #f49620;
@@ -154,6 +159,47 @@ h6 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	box-shadow: 1px 1px 10px #f49620;
 }
+
+.salesPage {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+.imageClick {
+	text-transform: uppercase;
+}
+
+.bottom {
+	margin-bottom: 100px;
+}
+
+.bioPic img{
+	width: 100%;
+}
+
+
+/* Mobile styling */
+
+@media only screen and (max-width: 600px) {
+
+	#image img {
+		width: 100%;
+	}
+
+	#image {
+		position: relative;
+		top: 20px;
+	}
+
+	.projectCards {
+		margin-bottom: 20px;
+	}
+	
+  }
+
+
